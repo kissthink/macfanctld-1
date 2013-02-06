@@ -1,0 +1,8 @@
+[Unit]
+Description=Macfand
+
+[Service]
+ExecStart=/usr/sbin/macfanctld
+
+[Install]
+WantedBy=multi-user.target
